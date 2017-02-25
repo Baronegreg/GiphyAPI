@@ -1,0 +1,36 @@
+ body{
+  background-color: firebrick;
+ }
+ h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Annie Use Your Telescope';
+ }
+   button,
+   div,
+   form,
+   input {
+     margin: 10px;
+   }
+
+   button:hover{
+
+    margin: 10px;
+    background: green;
+
+   }
+   img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+   }
+
+   #gif-form{
+    display: flex;
+    justify-content: center;
+   }
+
+   #gif-container{
+    display: flex;
+    flex-wrap: wrap;
+   } }
